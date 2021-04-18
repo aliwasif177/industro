@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-import Header from "../../Components/Navigation/Header/header";
-import Footer from "../../Components/HomeSection/Footer/footer";
-import { Button } from "@material-ui/core";
-import SubscribeDrawer from '../../Components/SubscribeDrawer/SubscribeDrawer'
-import Subscribe from "../../Components/Subscribe/Subscribe";
-import DownloadBar from "../utils/DownloadBar/DownloadBar";
+import Header from "../navbar/navbar";
+import Footer from "../footer/footer";
 
 class  Layout extends Component{
 

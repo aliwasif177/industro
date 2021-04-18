@@ -1,7 +1,9 @@
 import React from "react";
-import ScrollTop from "./HOC/utils/ScrollTop/ScrollTop";
+import ScrollTop from "./components/ScrollTop/ScrollTop";
 import Layout from "./components/Layout/Layout";
 import Home from './components/UsesPageScreen/UsesPageScreen'
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+// import ErrorPage from './components/errorpage/errorpage'
 
 const Router = () => {
 
@@ -11,7 +13,7 @@ const Router = () => {
         <Layout>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route component={ErrorPage} />
+            {/* <Route component={ErrorPage} /> */}
           </Switch>
         </Layout>
       </ScrollTop>

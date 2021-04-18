@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 import { Divider } from "@material-ui/core";
-import logo from '../../Assets/logo'
+import logo from '../../Assets/logo.png'
 
 const footer = () => {
 return (

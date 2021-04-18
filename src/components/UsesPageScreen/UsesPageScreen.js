@@ -1,19 +1,20 @@
 import React from "react";
 import "./UsesPageScreen.css";
-import mainImage from '../Assets/PNG.png'
-import firstImage from '../Assets/008.jpg'
-import secondImage from '../Assets/006.jpg'
-import thirdImage from '../Assets/001.jpg'
-import fourthImage from '../Assets/002.jpg'
-import fifthImage from '../Assets/003.jpg'
-import sixthImage from '../Assets/004.jpg'
-import seventhImage from '../Assets/007.jpg'
-import eighthImage from '../Assets/005.jpg'
-import logo from "../../Assets/Images/privacyScreen/svg/arrowPattern.svg";
-import firstIcon from "../../Assets/Images/UsesPageScreen/inexpensive.svg";
-import secondIcon from "../../Assets/Images/UsesPageScreen/security.svg";
-import thirdIcon from "../../Assets/Images/UsesPageScreen/coin.svg";
+import mainImage from '../../Assets/mainImg.png'
+import firstImage from '../../Assets/firstImage.jpg'
+import secondImage from '../../Assets/secondImage.jpg'
+import thirdImage from '../../Assets/thirdImage.jpg'
+import fourthImage from '../../Assets/fourthImage.jpg'
+import fifthImage from '../../Assets/fifthImage.jpg'
+import sixthImage from '../../Assets/sixthImage.jpg'
+import seventhImage from '../../Assets/seventhImage.jpg'
+import eighthImage from '../../Assets/eighthImage.jpg'
+import logo from "../../Assets/logo.png";
+import firstIcon from "../../Assets/firstIcon.svg";
+import secondIcon from "../../Assets/secondIcon.svg";
+import thirdIcon from "../../Assets/thirdIcon.svg";
 import Slide from "react-reveal/Slide";
+
 
 
 const UsesPageScreen = () => {

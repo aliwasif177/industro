@@ -1,6 +1,5 @@
 import React from "react";
-import "animate.css/animate.min.css";
-import Router from "./router";
+import Router from "./routes";
 
 const App = () => {
 

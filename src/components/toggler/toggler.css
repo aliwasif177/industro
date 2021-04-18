@@ -1,0 +1,13 @@
+.toggler{
+    background-color: #121a21;
+}
+.firstBar{
+    width: 18px;
+  height: 2px;
+  background-color: #ffffff;
+}
+.secondBar{
+    width: 11px;
+  height: 2px;
+  background-color: #ffffff;
+}
