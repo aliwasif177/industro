@@ -1,0 +1,109 @@
+footer {
+
+    background-image: linear-gradient(to bottom, #000000, #1d2731);
+    height: 100%;
+  }
+  .footer-logo{
+    float: left;
+  }
+  .privacy-and-terms-section{
+    float: right;
+  }
+  .privacy-policy{
+    font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.14;
+      letter-spacing: normal;
+      text-align: right;
+      color: #ffffff !important;
+      padding-top: 10px;
+  }
+  .footer-divider{
+  color: white !important;
+  background: white !important;
+  opacity: 0.2;
+  }
+  .footer-copyright{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #696969;
+    padding-top: 10px;
+     
+  }
+  .foot-heading {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: 2.8px;
+    text-align: left;
+    color: #1896de;
+  }
+  .linked{
+    
+     
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.14;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+  
+  }
+  .footer-copyright .inc{
+    color: #ffffff;
+    opacity: 1;
+  }
+  .copyright span{
+    color: #ffffff
+  }
+  .cursor{
+    cursor: pointer;
+  }
+  .copyright-container{
+    background-color: #121a21;
+  }
+  .clear{
+    clear: both;
+  }
+  .copyright{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #696969;
+  }
+  
+  @media(max-width:991px){
+    .foot-heading{
+  font-size: 12px;
+    }
+    .linked{
+      font-size: 12px;
+  
+    }
+    .footer-copyright{
+      display: none;
+    }
+  }
+   .fa:hover{
+     color: #1896de !important;
+  }

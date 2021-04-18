@@ -1,0 +1,203 @@
+.uses-page-screen{
+background: #121a21;
+overflow-x: hidden;
+}
+.uses-screen-main-text{
+    padding-top: 200px;
+    text-shadow: 0 8px 30px rgba(24, 150, 222, 0.22);
+    font-family: Axiforma;
+    font-size: 60px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.uses-page-screen-arrow{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.uses-page-screen-cards{
+    border-radius: 10px;
+    box-shadow: 0 13px 46px 0 rgba(0, 0, 0, 0.38);
+    background-image: linear-gradient(to top, #374858 30%, #1c2630 70%);
+    padding: 20px;
+}
+.inexpensive-card-head-text{
+    font-family: Axiforma;
+    font-size: 26px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.card-prim-text{
+    opacity: 0.6;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.uses-page-screen-cards-div{
+    /* padding-top: 30px; */
+    padding-left: 85px;
+    padding-right: 85px;
+    position: relative;
+    /* height: 250px; */
+    /* background: #121a21 !important; */
+    z-index: 10 !important;
+    bottom: -100px;
+    /* margin-bottom: 100px; */
+}
+.user-page-screen-video-section{
+    /* position: relative;
+    background: url(../../Assets/Images/UsesPageScreen/demoImg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    opacity: 0.4; */
+    position: relative;
+}
+.video-section{
+    position: relative;
+}
+.overlay-absolute{
+    position: absolute;
+    /* bottom: 0; */
+}
+.uses-video-wide{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    padding-top: 170px;
+}
+.women-personal{
+    border-radius: 5px;
+}
+.trango-video{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    z-index: 9 !important;
+}
+.trango-video #trango-video-tag{
+    object-fit: cover;
+    width: 100%;
+    z-index: 9 !important;
+}
+.video-layer-text{
+    padding-top: 100px;
+    text-shadow: 0 8px 30px rgba(24, 150, 222, 0.22);
+  font-family: Axiforma;
+  font-size: 60px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.img-layer-play-button{
+    padding-top: 100px;
+    cursor: pointer;
+}
+.details-part-one-text-head{
+    padding-top: 205px;
+    padding-bottom: 80px;
+}
+.details-part-one-text-main{
+    font-family: Axiforma;
+    font-size: 50px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1896de;
+}
+.details-part-one-text-sec{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.user-page-screen-details-part-one{
+    padding-top: 184px;
+    padding-bottom: 80px;
+}
+/* .user-page-screen-details-part-one-main{
+    padding-top: 200px;
+} */
+.user-page-screen-details-section-main{
+    padding-top: 200px
+}
+.uses-page-screen-img-head{
+    padding-top: 80px;
+}
+.new-sec{
+    font-size: 16px;
+    text-align: left !important;
+    font-family: poppins !important;
+}
+.top-card-sm{
+    padding-top: 60px;
+}
+
+@media(max-width:767px){
+    .uses-page-screen-cards-div{
+        display: none !important;
+    }
+    .uses-screen-main-text{
+        font-size: 36px;
+    }
+    .new-sec{
+       font-size: 12px !important;
+    }
+    .details-part-one-text-main{
+        font-size: 30px;
+    }
+    .details-part-one-text-sec{
+        font-size: 12px;
+    }
+    .details-part-one-text-head{
+        padding-bottom: 0px ;
+        padding-top: 50px;
+    }
+    .user-page-screen-details-part-one{
+        padding-top: 50px;
+    }
+    .uses-page-screen-arrow{
+        display: none;
+    }
+    .uses-screen-main-text {
+
+    padding-top: 110px;
+}
+.uses-video-wide{
+    padding-top: 70px;
+}
+}
