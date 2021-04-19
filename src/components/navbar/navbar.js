@@ -48,7 +48,7 @@ class Header extends Component {
                 className="cursor pl-2 d-none d-lg-block"
                 onClick={() => this.navigation()}
               >
-                <img src={logo} height="37px" alt="trango"></img>
+                <img src={logo} height="45px" alt="trango"></img>
               </Navbar.Brand>
               <Navbar.Brand
                 className="cursor pl-2 d-lg-none"
@@ -59,17 +59,18 @@ class Header extends Component {
             </div>
             <Nav className="mr-auto padding-resp d-none d-sm-inline-block  ">
                 
-                  <Nav.Link
+                  {/* <Nav.Link
                     className = 'text-light d-inline'
-                  >
+                  > */}
                     <NavLink
                       activeClassName= "check"
-                      className="border-change"
+                      
+                      className="border-change text-dark d-inline"
                       to= '/'
                     >
                     Home
                     </NavLink>
-                  </Nav.Link>
+                  {/* </Nav.Link> */}
             </Nav>
             <div className="stores d-none d-sm-block ml-auto text-light d-inline move-right">
               
@@ -87,9 +88,9 @@ class Header extends Component {
                +92 309 5360060
               </NavLink> */}
 
-            <div class="ml-auto text-light d-inline move-right">
-              <a href="https://api.whatsapp.com/send?phone=923095360060">
-                <span><img src={whats} class="whstap_img" height="20px"/>+92 309 5360060</span>
+            <div className="ml-auto text-light d-inline move-right">
+              <a href="https://api.whatsapp.com/send?phone=923095360060" target='_blank'>
+                <span><img src={whats} className="whstap_img" height="20px"/>+92 309 5360060</span>
                 </a>
                 </div>
             </div>

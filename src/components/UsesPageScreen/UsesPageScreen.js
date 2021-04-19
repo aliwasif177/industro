@@ -22,8 +22,8 @@ const UsesPageScreen = () => {
   return (
     <div className="uses-page-screen">
       <div className="container">
-        <div className="row">
-          <div className="col-12 col-md-6">
+        <div className="row py-5 my-5">
+          <div className="col-12 col-md-4">
             <div className="uses-page-screen-text-head">
               <h1 className="uses-screen-main-text">Solid Ash Bricks</h1>
             </div>
@@ -42,8 +42,8 @@ const UsesPageScreen = () => {
         <div className="row uses-page-screen-cards-div">
           <div className="col">
             <div className="card uses-page-screen-cards">
-              <div className="card-img ">
-                <img src={firstIcon} />
+              <div className="card-img">
+                <img src={firstIcon}  />
               </div>
               <div className="card-text inexpensive-card-head-text">
                 Lower Construction Cost
@@ -56,7 +56,7 @@ const UsesPageScreen = () => {
           <div className="col">
             <div className="card uses-page-screen-cards">
               <div className="card-img">
-                <img src={secondIcon} />
+                <img src={secondIcon} className='filterit' />
               </div>
               <div className="card-text inexpensive-card-head-text">
                 Fire Resistance
@@ -69,7 +69,7 @@ const UsesPageScreen = () => {
           <div className="col">
             <div className="card uses-page-screen-cards">
               <div className="card-img">
-                <img src={thirdIcon} />
+                <img src={thirdIcon} className='filterit' />
               </div>
               <div className="card-text inexpensive-card-head-text">
                 Environment Friendly
@@ -101,6 +101,7 @@ const UsesPageScreen = () => {
             </div>
           </div>
         </div>
+
         <div className="row py-5 mt-4 d-md-none ">
           <div className="col-6">
             <div className="card cards-small cards-small-adjust ">
@@ -110,7 +111,7 @@ const UsesPageScreen = () => {
                     <img
                       src={secondIcon}
                       alt="Modem"
-                      className="adjust-logo-m"
+                      className="adjust-logo-m filterit"
                     />
                   </div>
                 </div>
@@ -124,7 +125,7 @@ const UsesPageScreen = () => {
               <div className="card-body ">
                 <div className="card-img">
                   <div className="rotate-card-icons">
-                    <img src={thirdIcon} alt="Cloud" className="adjust-logo-m" />
+                    <img src={thirdIcon} alt="Cloud" className="adjust-logo-m filterit" />
                   </div>
                 </div>
                 <div className="adjust-heading-m pt-2">Environment Friendly</div>
@@ -136,13 +137,12 @@ const UsesPageScreen = () => {
       <div className="user-page-screen-details-section">
         <div className="container">
           <div className="row">
-            <div className="col-12 order-last col-md-6 order-md-first">
+            <div className="col-12 order-last col-md-8 order-md-first">
               <div className="user-page-screen-details-part-one" >
 
                 <div className="details-part-one-img-head">
                   <img
-                    src={firstImage
-                    }
+                    src={firstImage}
                     className="img-fluid women-personal"
                   />
                 </div>
@@ -166,7 +166,7 @@ const UsesPageScreen = () => {
       <div className="user-page-screen-details-section">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-5">
               <div className="details-part-one-text-head">
                 <div className="details-part-one-text-main">Lower Construction Cost
 
@@ -180,8 +180,7 @@ const UsesPageScreen = () => {
               <div className="user-page-screen-details-part-one">
                 <div className="details-part-one-img-head">
                   <img
-                    src={secondImage
-                    }
+                    src={secondImage}
                     className="img-fluid"
                   />
                 </div>
@@ -194,13 +193,11 @@ const UsesPageScreen = () => {
       <div className="user-page-screen-details-section">
         <div className="container">
           <div className="row">
-            <div className="col-12 order-last col-md-6 order-md-first">
+            <div className="col-12 order-last col-md-7 order-md-first">
               <div className="user-page-screen-details-part-one">
                 <div className="details-part-one-img-head">
                   <img
-                    src={thirdImage
-                    }
-                    className="img-fluid"
+                    src={thirdImage} className="img-fluid"
                   />
                 </div>
               </div>
@@ -208,8 +205,10 @@ const UsesPageScreen = () => {
             <div className="col">
               <div className="details-part-one-text-head">
                 <div className="details-part-one-text-main">
+                Environment Friendly
                 </div>
-                <div className="details-part-one-text-sec">Environment Friendly
+                <div className="details-part-one-text-sec">
+                Solid Fly Ash Bricks are made from pulverized coal which is the ash left after coal is burned to generate electricity. The manufacturing of Solid Fly Ash bricks emit 0 emissions and are the ultimate green alternative to Red Clay Bricks which release tremendous amounts of Co2 emissions. Save the environment by going Solid.
 
                 </div>
               </div>
@@ -217,11 +216,11 @@ const UsesPageScreen = () => {
           </div>
         </div>
       </div>
-      <div class="user-page-screen-details-section"><div class="container"><div class="row"><div class="col-12 col-md-6"><div class="details-part-one-text-head"><div class="details-part-one-text-main">No Seapage</div><div class="details-part-one-text-sec">Due to much less water absoprtion, Solid Fly Ash bricks do not cause seapage issues and don't require long drying times like Red Clay Bricks. Once painted, the paint is also not at risk of peeling off in the case of Solid Fly Ash Bricks. No longer do you have to worry about long drying times and reduce the costs of repainting.</div></div></div><div class="col"><div class="user-page-screen-details-part-one"><div class="details-part-one-img-head"><img src={fourthImage} class="img-fluid" /></div></div></div></div></div></div>
-      <div class="user-page-screen-details-section"><div class="container"><div class="row"><div class="col-12 order-last col-md-6 order-md-first"><div class="user-page-screen-details-part-one"><div class="details-part-one-img-head"><img src = {fifthImage} class="img-fluid"/></div></div></div><div class="col"><div class="details-part-one-text-head"><div class="details-part-one-text-main">Less heat</div><div class="details-part-one-text-sec">Due to the deflection properties of Solid Fly Ash Bricks, they do not absord the outside heat, keeping your house cool in the summers and warm in the winters.</div></div></div></div></div></div>
-      <div class="user-page-screen-details-section"><div class="container"><div class="row"><div class="col-12 col-md-6"><div class="details-part-one-text-head"><div class="details-part-one-text-main">sound proof</div><div class="details-part-one-text-sec">Due to a higher density of Solid Fly Ash Bricks, they provide much more sound resistance as compared to Clay Bricks.</div></div></div><div class="col"><div class="user-page-screen-details-part-one"><div class="details-part-one-img-head"><img src= {sixthImage} class="img-fluid"/></div></div></div></div></div></div>
-      <div class="user-page-screen-details-section"><div class="container"><div class="row"><div class="col-12 order-last col-md-6 order-md-first"><div class="user-page-screen-details-part-one"><div class="details-part-one-img-head"><img src={seventhImage} class="img-fluid"/></div></div></div><div class="col"><div class="details-part-one-text-head"><div class="details-part-one-text-main">Fire Resistance</div><div class="details-part-one-text-sec">Solid Fly Ash Bricks offer much better fire resistance as compared to Clay Bricks. Solid Fly Ash Bricks are made from materials which do not catch fire and are at a much lower risk.</div></div></div></div></div></div>
-      <div class="user-page-screen-details-section"><div class="container"><div class="row"><div class="col-12 col-md-6"><div class="details-part-one-text-head"><div class="details-part-one-text-main">Termite Resistance</div><div class="details-part-one-text-sec">Since Red Clay Bricks are made of soil/clay, they have the tendency to become havens for termites. Solid Fly Ash Bricks do not contain clay and are free of termite resistance.</div></div></div><div class="col"><div class="user-page-screen-details-part-one"><div class="details-part-one-img-head"><img src={eighthImage} class="img-fluid"/></div></div></div></div></div></div>
+      <div className="user-page-screen-details-section"><div className="container"><div className="row"><div className="col-12 col-md-5"><div className="details-part-one-text-head"><div className="details-part-one-text-main">No Seapage</div><div className="details-part-one-text-sec">Due to much less water absoprtion, Solid Fly Ash bricks do not cause seapage issues and don't require long drying times like Red Clay Bricks. Once painted, the paint is also not at risk of peeling off in the case of Solid Fly Ash Bricks. No longer do you have to worry about long drying times and reduce the costs of repainting.</div></div></div><div className="col"><div className="user-page-screen-details-part-one"><div className="details-part-one-img-head"><img src={fourthImage} className="img-fluid" /></div></div></div></div></div></div>
+      <div className="user-page-screen-details-section"><div className="container"><div className="row"><div className="col-12 order-last col-md-7 order-md-first"><div className="user-page-screen-details-part-one"><div className="details-part-one-img-head"><img src = {fifthImage} className="img-fluid"/></div></div></div><div className="col"><div className="details-part-one-text-head"><div className="details-part-one-text-main">Less heat</div><div className="details-part-one-text-sec">Due to the deflection properties of Solid Fly Ash Bricks, they do not absord the outside heat, keeping your house cool in the summers and warm in the winters.</div></div></div></div></div></div>
+      <div className="user-page-screen-details-section"><div className="container"><div className="row"><div className="col-12 col-md-5"><div className="details-part-one-text-head"><div className="details-part-one-text-main">sound proof</div><div className="details-part-one-text-sec">Due to a higher density of Solid Fly Ash Bricks, they provide much more sound resistance as compared to Clay Bricks.</div></div></div><div className="col"><div className="user-page-screen-details-part-one"><div className="details-part-one-img-head"><img src= {sixthImage} className="img-fluid"/></div></div></div></div></div></div>
+      <div className="user-page-screen-details-section"><div className="container"><div className="row"><div className="col-12 order-last col-md-7 order-md-first"><div className="user-page-screen-details-part-one"><div className="details-part-one-img-head"><img src={seventhImage} className="img-fluid"/></div></div></div><div className="col"><div className="details-part-one-text-head"><div className="details-part-one-text-main">Fire Resistance</div><div className="details-part-one-text-sec">Solid Fly Ash Bricks offer much better fire resistance as compared to Clay Bricks. Solid Fly Ash Bricks are made from materials which do not catch fire and are at a much lower risk.</div></div></div></div></div></div>
+      <div className="user-page-screen-details-section"><div className="container"><div className="row"><div className="col-12 col-md-5"><div className="details-part-one-text-head"><div className="details-part-one-text-main">Termite Resistance</div><div className="details-part-one-text-sec">Since Red Clay Bricks are made of soil/clay, they have the tendency to become havens for termites. Solid Fly Ash Bricks do not contain clay and are free of termite resistance.</div></div></div><div className="col"><div className="user-page-screen-details-part-one"><div className="details-part-one-img-head"><img src={eighthImage} className="img-fluid"/></div></div></div></div></div></div>
     </div>
   );
 };

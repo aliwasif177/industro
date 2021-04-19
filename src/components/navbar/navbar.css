@@ -41,7 +41,7 @@
     cursor: pointer;
   }
   .setColor {
-    background-color: #121a21;
+    background-color: #82CAFA;
     z-index: 4000 !important;
     
   
@@ -69,16 +69,19 @@
   
   .check{
   /* background-color: hotpink; */
-  border-bottom: 2px solid #1896de;
-  padding-bottom: 15px;
+  border-bottom: 2px solid black !important;
+  font-weight: bolder;
+  padding-bottom: 8px;
+  font-size: 18px;
   }
   .check:hover{
-    border-bottom: 2px solid #1896de;
-    padding-bottom: 15px;
+    border-bottom: 2px solid black !important;
+    padding-bottom: 8px;
   }
   .navbar-size a:hover{
     text-decoration: none;
-    padding-bottom: 15px;
+    padding-bottom: 8px;
+    font-weight: bolder;
   
   
   
@@ -112,8 +115,10 @@
   }
   
   .border-change:hover{
-    border-bottom: 2px solid #1896de;
+    border-bottom: 2px solid black;
     color: none;
+    font-weight: bolder;
+    font-size: 30px !important;
   }
   /* .navbar-size{
     padding-bottom: 60px;

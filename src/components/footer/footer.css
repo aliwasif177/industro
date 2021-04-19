@@ -6,8 +6,14 @@ footer {
   .footer-logo{
     float: left;
   }
+  .linked-num a{
+    color: white !important;
+  }
   .privacy-and-terms-section{
     float: right;
+  }
+  .card-img{
+    text-align: center;
   }
   .privacy-policy{
     font-family: Poppins;
