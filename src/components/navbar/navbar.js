@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Toggler from "../toggler/toggler";
-import whats from '../../Assets/whats.png'
-import logo from '../../Assets/logo.png'
+import whats from "../../Assets/whats.png";
+import logo from "../../Assets/logo.png";
 import { withRouter, NavLink } from "react-router-dom";
 
 import "./navbar.css";
@@ -13,12 +13,9 @@ class Header extends Component {
     navbarClass: "",
     expanded: false,
   };
-  
-  
 
-  
   navigation = () => {
-    this.props.history.push('/');
+    this.props.history.push("/");
     this.setState({
       navbarClass: "backgroung:green",
       openLogin: false,
@@ -32,8 +29,11 @@ class Header extends Component {
           <Navbar
             collapseOnSelect
             expand="sm"
-            
-            className={this.props.downloadStatus ? "setColor-download fixed-top" : "setColor fixed-top"}
+            className={
+              this.props.downloadStatus
+                ? "setColor-download fixed-top"
+                : "setColor fixed-top"
+            }
             onToggle={this.setExpanded}
             expanded={this.state.expanded}
           >
@@ -58,41 +58,38 @@ class Header extends Component {
               </Navbar.Brand>
             </div>
             <Nav className="mr-auto padding-resp d-none d-sm-inline-block  ">
-                
-                  {/* <Nav.Link
-                    className = 'text-light d-inline'
-                  > */}
-                    <NavLink
-                      activeClassName= "check"
-                      
-                      className="border-change text-dark d-inline"
-                      to= '/'
-                    >
-                    Home
-                    </NavLink>
-                  {/* </Nav.Link> */}
-            </Nav>
-            <div className="stores d-none d-sm-block ml-auto text-light d-inline move-right">
-              
-              {/* <NavLink
-                style={{
-                  textDecoration: "none",
-                  color: "#ffffff",
-                  fontFamily: "axiforma",
-                }}
+              <NavLink
                 activeClassName="check"
-                className="mx-3 border-change"
-                to="/Download"
+                className="border-change d-inline"
+                to="/"
               >
-                <img/> 
-               +92 309 5360060
-              </NavLink> */}
-
-            <div className="ml-auto text-light d-inline move-right">
-              <a href="https://api.whatsapp.com/send?phone=923095360060" target='_blank'>
-                <span><img src={whats} className="whstap_img" height="20px"/>+92 309 5360060</span>
+                Home
+              </NavLink>
+            </Nav>
+            <div className="stores d-none d-sm-block">
+              <div className="ml-auto text-light d-inline move-right">
+                <p
+                  className="pt-4 pr-5"
+                  onClick={this.props.setLanguage}
+                  style={{ cursor: "pointer" }}
+                >
+                  {" "}
+                  {this.props.language !== "Eng" ? "Translate" : "اردو"}
+                </p>
+              </div>
+            </div>
+            <div className="stores d-none d-sm-block">
+              <div className="ml-auto text-light d-inline move-right">
+                <a
+                  href="https://api.whatsapp.com/send?phone=923095360060"
+                  target="_blank"
+                >
+                  <span>
+                    <img src={whats} className="whstap_img" height="20px" />
+                    +92 309 5360060
+                  </span>
                 </a>
-                </div>
+              </div>
             </div>
           </Navbar>
           <i
