@@ -38,12 +38,12 @@ class Header extends Component {
             expanded={this.state.expanded}
           >
             <div className="">
-              <Navbar.Toggle
+              {/* <Navbar.Toggle
                 aria-controls="responsive-navbar-nav"
                 onClick={this.setExpanded}
               >
                 <Toggler />
-              </Navbar.Toggle>
+              </Navbar.Toggle> */}
               <Navbar.Brand
                 className="cursor pl-2 d-none d-lg-block"
                 onClick={() => this.navigation()}

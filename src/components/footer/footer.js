@@ -73,10 +73,10 @@ const footer = (props) => {
       <footer className="d-md-none">
         <div className="container py-5">
           <div className="row">
-            <div className="col-2">
+            <div className="col-4">
               <img src={logo} className="d-block pl-2 img-fluid" alt="Trango" />
             </div>
-            <div className="col-5">
+            <div className="col">
               <div className="pt-1 pl-3">
                 <div className="foot-heading">
                   {props.language === "Eng" ? "Contact Us" : "ہم سے رابطہ کریں"}{" "}
